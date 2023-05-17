@@ -1,2 +1,12 @@
-h1{ color:#00F9B2 #00F9B2;
+h1{ 
+    color: #00f9b2;
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    border: 3px solid green;
+    text-shadow: 2px 2px 4px black;
+
+    padding: 10px;
+    text-align: center;
 }
+
