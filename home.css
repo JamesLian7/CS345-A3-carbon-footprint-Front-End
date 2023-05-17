@@ -12,7 +12,13 @@ h1{
 
 img:active{
     transform: scale(0.8);
+
 }
 img{
     transition: 0.3s;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    cursor: url(clipart1871626.png), auto;
+    padding: 10px;
 }

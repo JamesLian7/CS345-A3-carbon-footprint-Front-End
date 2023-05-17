@@ -10,6 +10,7 @@
 </head>
 <body>
     <h1>CARBON EASY</h1>
+    cursor: url();
 
 
 <img id = "image1" src = "pngwing.com(2).png" alt="" onclick= changeImage()>
@@ -17,10 +18,10 @@
     function changeImage(){
         let displayImage = document.getElementById('image1')
         if(displayImage.src.match('pngwing.com(2).png')){
-            displayImage.src = 'pngwing.com(3).png'
+            displayImage.src = 'pngwing.com(2).png'
         }
         else{
-            displayImage.src = 'pngwing.com(2).png'
+            displayImage.src = 'pngwing.com(3).png'
         }
     
     }
