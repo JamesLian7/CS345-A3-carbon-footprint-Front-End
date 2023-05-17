@@ -10,3 +10,9 @@ h1{
     text-align: center;
 }
 
+img:active{
+    transform: scale(0.8);
+}
+img{
+    transition: 0.3s;
+}

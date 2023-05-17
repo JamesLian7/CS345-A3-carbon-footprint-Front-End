@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
     <link rel="stylesheet" type="text/css" href="home.css"/> 
+    <script src="home.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +12,21 @@
     <h1>CARBON EASY</h1>
 
 
-    <p>
-        <img alt="" src="pngwing.com (2).png" 
-            style="height: 85px; width: 198px" id="imgClickAndChange" onclick="changeImage()"/>
-    </p>
+<img id = "image1" src = "pngwing.com(2).png" alt="" onclick= changeImage()>
+<script>
+    function changeImage(){
+        let displayImage = document.getElementById('image1')
+        if(displayImage.src.match('pngwing.com(2).png')){
+            displayImage.src = 'pngwing.com(3).png'
+        }
+        else{
+            displayImage.src = 'pngwing.com(2).png'
+        }
+    
+    }
+</script>
+    </body>
+
+    </script>
 </body>
 </html>
