@@ -46,7 +46,7 @@ img{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-135%,-130%);
+    transform: translate(-125%,-130%);
     text-shadow: 4px 4px 4px black;
     font-size: 25px;
     font-family: fantasy;
@@ -56,13 +56,16 @@ img{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-110%,-160%);   
-    background-color: #00f9b2;
-    width: 140px;
-    height: 50px;
+    transform: translate(-290%,-10%);   
+    background-color: #F90047;
+    width: 170px;
+    height: 70px;
     color: white;
-    text-align: center;
-    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+    font-weight: 900;
+
+
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
@@ -73,12 +76,12 @@ img{
     transition-property: box-shadow, transform;
 }
 .getStartedButton:hover, .getStartedButton:active, .getStartedButton:focus{
-    color: #00f9b2;
-    background-color: white;
+    color: #F90047;
+    background-color: #00f9b2;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    transform: translate(-110%,-160%);  
+    transform: translate(-290%,-10%);  
     top: 50%;
     left: 50%;
 }
