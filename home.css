@@ -12,10 +12,12 @@ body{
     padding: 10px;
     text-align: center; */
 .container1{
-    position: relative;
+    position: fixed;
     text-align: center;
     color: white;
-    margin: 0%;
+    margin-top: -80px;
+    width: 100%;
+    z-index: -1;
     
 
     
