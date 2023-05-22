@@ -25,3 +25,61 @@
     background-color: #00f9b2;
     color: white;
   }
+  .popup{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color: orangered;
+    background:linear-gradient(to right, #00f9b2, #016540);
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute ;
+
+
+}
+.center button{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 auto;
+    z-index: 12;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+.center button:active{
+    background-color: #00f9b2;
+    color: white;
+
+}
+.center button:hover{
+    background-color: #00f9b2;
+    color: black;
+
+}
+.center{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(400%,-720%);
+    z-index: 11;
+}
+.popup{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+.trigger-modal{
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%,-500%);
+    z-index: 11;
+}
+
