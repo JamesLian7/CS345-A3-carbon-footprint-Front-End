@@ -32,6 +32,10 @@ img{
 
 
 }
+
+input{
+    margin-bottom: 10px;
+}
 .centeredTitle{
     position: absolute;
     top: 50%;
