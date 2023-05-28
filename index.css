@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #fff;
 }
 
 .container1 {
@@ -22,6 +22,7 @@ input {
 }
 .centeredTitle {
   position: absolute;
+  color: white;
   top: 50%;
   left: 50%;
   transform: translate(-110%, -140%);
@@ -37,6 +38,7 @@ input {
   text-shadow: 4px 4px 4px black;
   font-size: 25px;
   font-family: fantasy;
+  color: white;
 }
 .getStartedButton {
   position: absolute;
@@ -75,4 +77,12 @@ input {
 }
 .userinfo {
   color: #f90047;
+}
+
+.avatarImg{
+  width: 500px;
+  height: 300px;
+  z-index: 20;
+  top: 0;
+  right: 0;
 }
