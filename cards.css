@@ -6,8 +6,11 @@
     width: 500px;
     height: 200px;
 
-    top: 590px;
+    top: 600px;
     left: 20px;
+    text-align: center;
+ 
+
     
   }
   h4{
@@ -27,3 +30,11 @@
     width: 10px;
 
   }
+ p{
+  font-family: fantasy;
+  
+ }
+ h4{
+  font-family: fantasy;
+  font-weight: bold;
+ }

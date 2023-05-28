@@ -14,13 +14,22 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+    <ul class="topnav">
+      <li>CARBON EASY logo</li>
+      <li><a class="active" href="#home">Home</a></li>
+      <li>
+        <a href="#about">About Us ↓</a>
+      <ul class="dropdown">
+        <li><a href="#">Meet the team</a></li>
+        <li><a href="#">Our Goals</a></li>
+      </ul>
+    </li>
+    <li><a href="#donate">Donate</a></li>
+      <li><a href="#contact">Contact</a></li>
+      
  
-    </div>
+    </ul>
+  
 
     <div class="container1">
       <div class="centeredTitle">Carbon EASY</div>
@@ -39,7 +48,9 @@
     <div class="card">
       <div class="card1">
         <div class="containerCard">
-          <h4><b>Track Your Progress</b></h4>
+          <br>
+          <br>
+          <h4>Track Your Progress</h4>
           <p>
             Our "historical progress" feature allows the user to track their
             history of carbon footprint. It shows the users past carbon
@@ -50,7 +61,6 @@
       </div>
     </div>
 
-    <h1></h1>
 
     <button id="notworking" class="fraud">Login</button>
     <button id="test" class="login">Register</button>
