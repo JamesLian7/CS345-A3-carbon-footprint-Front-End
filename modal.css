@@ -1,6 +1,6 @@
 /* modal.css */
 
-* {
+*{
   border: 0;
   padding: 0;
   margin: 0;
@@ -10,6 +10,7 @@
   font-family: "Open Sans", sans-serif;
   list-style: none;
 }
+
 
 body {
   height: 100%;
@@ -74,7 +75,7 @@ input[type="password"] {
   display: block;
   width: 100%;
   color: white;
-  background-color: #29a6d4;
+  background-color: #00f9b2;
   margin: 16px 0;
 }
 
@@ -154,16 +155,60 @@ input[type="checkbox"] {
 
 .login {
   padding: 10px 25px;
-  font-size: 20px;
+  font-size: 15px;
+  color: black;
+  background-color: #f90047;
+
   color: white;
-  background-color: rgb(113, 113, 113);
+  font-family: "Times New Roman", Times, serif;
   cursor: pointer;
+  border-radius: 5px;
+  transform: translate(1300px,-46.5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 14px 16px;
+
+
+
+}
+.login:hover{
+  color: white;
+  background-color: #00f9b2;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+  top: 50%;
+  left: 50%;
 }
 
-h1,
-.login {
+h1{
   margin: auto;
   text-align: center;
   display: block;
-  margin-top: 20px;
+  right: 0;
+  position: absolute;
+  top: 0;
+}
+
+.fraud{
+  padding: 10px 25px;
+  font-size: 15px;
+  color: black;
+  background-color: #f90047;
+
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  border-radius: 5px;
+  transform: translate(1300px,-46.5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 14px 16px;
+
+}
+.fraud:hover{
+  color: white;
+  background-color: #00f9b2;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+  top: 50%;
+  left: 50%;
+
 }
