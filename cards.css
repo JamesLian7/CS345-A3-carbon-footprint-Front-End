@@ -3,11 +3,11 @@
     box-shadow: 0 4px 8px 0 rgba(0, 249, 178, 1);
     transition: 0.3s;
     position: absolute;
-    width: 33%;
+    width: 31%;
     height: 200px;
 
     top: 600px;
-    left: 20px;
+    left: 1%;
     text-align: center;
  
 
@@ -26,10 +26,7 @@
   .containerCard {
     padding: 2px 16px;
   }
-  .cardImage{
-    width: 10px;
 
-  }
  p{
   font-family: fantasy;
   
@@ -38,3 +35,39 @@
   font-family: fantasy;
   font-weight: bold;
  }
+
+
+
+ .card2{
+  box-shadow: 0 4px 8px 0 rgba(0, 249, 178, 1);
+  transition: 0.3s;
+  position: absolute;
+  width: 32%;
+  height: 200px;
+
+  top: 600px;
+  left: 33.33%;
+  text-align: center;
+
+
+  
+}
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.card3{
+  box-shadow: 0 4px 8px 0 rgba(0, 249, 178, 1);
+  transition: 0.3s;
+  position: absolute;
+  width: 32%;
+  height: 200px;
+
+  top: 600px;
+  left: 66.7%;
+  text-align: center;
+
+
+  
+}
